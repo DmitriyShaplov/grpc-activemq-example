@@ -1,0 +1,13 @@
+spring:
+  activemq:
+    broker-url: tcp://localhost:61616
+    user: admin
+    password: admin
+    packages:
+      trust-all: true
+
+active-mq:
+  teacher:
+    topic: teacher.topic
+  student:
+    topic: student.topic
